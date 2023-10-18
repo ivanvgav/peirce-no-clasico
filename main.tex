@@ -13,8 +13,9 @@
 \documentclass[
   structure  = article,
   pagelayout = periodicalaureo,%periodicalaureo
-  secfont    = Italic,
+  secfont    = italic,
   subsecfont = italic,
+  %headerstyle = plain,
   version    = screen,%cscreen,final,draft
   %draftcopy=true,
 ]{suftesi}
@@ -49,11 +50,15 @@
 % Quality tables:
 \usepackage{booktabs}
 
+% Custom header and footer
+%\usepackage{fancyhdr}
+
+
 % Cross references:
 \usepackage{hyperref} % <-- !!! this package must be loaded last!
 
 % Colophon and headers data:
-\author{Ivan Vladimir Gavriloff}
+\author{Ivan Vladimir Gavriloff\thanks{UNT - CONICET}}
 \title[Un Peirce no clásico]{
   Un Peirce no clásico\\
   Acerca de la posibilidad del estudio de lógicas no clásicas para C. S. Peirce
@@ -63,6 +68,15 @@
 
 % Beginning of the document
 \begin{document}
+
+%Fancy footer and header
+%\pagestyle{fancy}
+%\fancyhead{}
+%\fancyhead[LO]{Prueba}
+%\fancyhead[RO]{ISSN}
+%\fancyfoot{}
+%\fancyfoot[RO, RE]{\thepage}
+%\fancyfoot[LO, LE]{\small{Estudios de Epistemología}}
 
 % Frontispiece:
 % \begin{frontespizio*}
