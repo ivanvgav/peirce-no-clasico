@@ -34,14 +34,7 @@
   backend = biber, % <-- !!! also set ‘biber’ in the editor preferences!
   style   = philosophy-classic,%philosophy-modern,philosophy-verbose
 ]{biblatex}
-\addbibresource{biblio.bib}
-
-% Frontispiece:
-% \usepackage{topfront}
-% \candidato{Galileo \textsc{Galilei}}
-% \secondocandidato{Evangelista \textsc{Torricelli}}
-% \relatore{prof.\ Margherita Hack}
-% \tutoreaziendale{dott.\ Roberto Ferrero}
+\addbibresource{/home/ivan/Documents/biblio.bib}
 
 % Graphics:
 \usepackage{graphicx}
@@ -49,9 +42,6 @@
 
 % Quality tables:
 \usepackage{booktabs}
-
-% Custom header and footer
-%\usepackage{fancyhdr}
 
 
 % Cross references:
@@ -69,85 +59,15 @@
 % Beginning of the document
 \begin{document}
 
-%Fancy footer and header
-%\pagestyle{fancy}
-%\fancyhead{}
-%\fancyhead[LO]{Prueba}
-%\fancyhead[RO]{ISSN}
-%\fancyfoot{}
-%\fancyfoot[RO, RE]{\thepage}
-%\fancyfoot[LO, LE]{\small{Estudios de Epistemología}}
-
-% Frontispiece:
-% \begin{frontespizio*}
-%   \DottoratoIn{PhD Course in\space}
-%   \CorsoDiLaureaIn{Master degree course in\space}
-%   \NomeMonografia{Bachelor Degree Thesis}
-%   \TesiDiLaurea{Master Degree Thesis}
-%   \NomeDissertazione{PhD Dissertation}
-%   \InName{in}
-%   \CandidateName{Candidates}% or Candidate
-%   \AdvisorName{Supervisor}% or Supervisors
-%   \TutorName{Tutor}
-%   \NomeTutoreAziendale{
-%     Internship Tutor \\
-%     Monviso Astronomical Observatory
-%   }
-%   \CycleName{cycle}
-%   \NomePrimoTomo{First volume}
-%   \NomeSecondoTomo{Second Volume}
-%   \NomeTerzoTomo{Third Volume}
-%   \NomeQuartoTomo{Fourth Volume}
-%   \titolo{Jupiter barometric pressure}
-%   \sottotitolo{Method of the Medicean satellites}
-%   \corsodilaurea{Applied Astronomy}
-%   \logosede{logo} % one logo or a comma separated list of logos
-%   \sedutadilaurea{August 1615}
-%   \ateneo{West Piedmont University}
-% %  \ateneo{}
-%   \nomeateneo{Royal Mountain Campus}
-% \end{frontespizio*}
-%
-% % Colophon:
-% \bookcolophon{%
-%   Copyright © 2020 Name Surname. \\ 
-%   All right reserved}{%
-%   Typeset with \LaTeX\ with the \textsf{suftesi} 
-%   class by Ivan Valbusa. \\
-%   The text face is Cochineal by Michael Sharpe.
-% }
-%
 % Title:
 \maketitle
 
-% Abstract:
-%\begin{abstract}
-%  En el presente trabajo se tratará de realizar una defensa de Charles S. Peirce como uno de los primeros posibilitadores de la lógicas no clásicas. Dentro de la historia de la lógica se han llevado a cabo varias investigaciones acerca de la posibles lógicas que no sean igual a las llamada lógica clásica. El siglo XX y hasta la actualidad se encuentra lleno de ejemplos de este tipo como el intuicionismo y la lógica relevante hasta las lógicas subestructurales, solo por nombrar algunas. Es interesante de ver desde un punto de vista de la historia de la lógica cuando las preocupaciones o las cuestiones de pensar en lógicas por fuera de la clásica se hicieron pertinentes para los lógicos. Esto da un mejor bagaje a todo lo desarrollado por la lógica contemporánea la cual muchas veces deja de lado el aspecto histórico de sus proesas. Aquí proponemos sostener que uno de los posibles iniciadores de la busqueda por ciertas lógicas que hoy denominamos "no clásicas" fue Charles Sanders Peirce. Para ello nos vamos a basar en ciertos aspectos de su filosofía como también de material de sus cartas donde se puede entreveer la posibildad de análisis de lógicas que estén por fuera de lo que era en ese momento el \textit{mainstream} de la lógica que aún se encuentraba en plena construcción como disciplina autónoma.
-%\end{abstract}
-
-% Tables of contents:
-% \tableofcontents
-% \listoftables
-% \listoffigures
-
-% \author[IVG]{Ivan Vladimir Gavriloff\thanks{UNT - CONICET}}
-
-% \date{\today}
-
-%----------------------------------------------------------------------------------------
-%	TITLE AND ABSTRACT
-%----------------------------------------------------------------------------------------
-
-\maketitle
-
-% \margintoc
-
 \begin{abstract}
-	\noindent
-	En el presente trabajo se tratará de realizar una defensa de Charles S. Peirce como uno de los primeros posibilitadores de la lógicas no clásicas. Dentro de la historia de la lógica se han llevado a cabo varias investigaciones acerca de la posibles lógicas que no sean igual a las llamada lógica clásica. El siglo XX y hasta la actualidad se encuentra lleno de ejemplos de este tipo como el intuicionismo y la lógica relevante hasta las lógicas subestructurales, solo por nombrar algunas. Es interesante de ver desde un punto de vista de la historia de la lógica cuando las preocupaciones o las cuestiones de pensar en lógicas por fuera de la clásica se hicieron pertinentes para los lógicos. Esto da un mejor bagaje a todo lo desarrollado por la lógica contemporánea la cual muchas veces deja de lado el aspecto histórico de sus proesas. Aquí proponemos sostener que uno de los posibles iniciadores de la busqueda por ciertas lógicas que hoy denominamos "no clásicas" fue Charles Sanders Peirce. Para ello nos vamos a basar en ciertos aspectos de su filosofía como también de material de sus cartas donde se puede entreveer la posibildad de análisis de lógicas que estén por fuera de lo que era en ese momento el \textit{mainstream} de la lógica que aún se encuentraba en plena construcción como disciplina autónoma.
+  \noindent
+  En el presente trabajo se tratará de realizar una defensa de Charles S. Peirce como uno de los primeros posibilitadores de la lógicas no clásicas. Dentro de la historia de la lógica se han llevado a cabo varias investigaciones acerca de la posibles lógicas que no sean igual a las llamada lógica clásica. El siglo XX y hasta la actualidad se encuentra lleno de ejemplos de este tipo como el intuicionismo y la lógica relevante hasta las lógicas subestructurales, solo por nombrar algunas. Es interesante de ver desde un punto de vista de la historia de la lógica cuando las preocupaciones o las cuestiones de pensar en lógicas por fuera de la clásica se hicieron pertinentes para los lógicos. Esto da un mejor bagaje a todo lo desarrollado por la lógica contemporánea la cual muchas veces deja de lado el aspecto histórico de sus proesas. Aquí proponemos sostener que uno de los posibles iniciadores de la busqueda por ciertas lógicas que hoy denominamos "no clásicas" fue Charles Sanders Peirce. Para ello nos vamos a basar en ciertos aspectos de su filosofía como también de material de sus cartas donde se puede entreveer la posibildad de análisis de lógicas que estén por fuera de lo que era en ese momento el \textit{mainstream} de la lógica que aún se encuentraba en plena construcción como disciplina autónoma.
 \end{abstract}
 
-{\noindent\textbf{Keywords:} Peirce, lógicas no clásicas, lógicas no aristotélicas}
+{\noindent\textbf{Palabras Claves:} Peirce, lógicas no clásicas, lógicas no aristotélicas}
 
 \medskip
 
@@ -160,7 +80,8 @@
 
 El desarrollo contemporáneo de la lógica en la actualidad se encuentra sustancialmente dado por el trabajo de elaboración y análisis de diversos sistemas de lógicas denominadas no clásicas.\footnote{agregar cita de la introducción a las lógicas no clasicas.priest2014.} Algunos desarrollos de dichas lógicas viene dado casi a la par de la conformación actual de la lógica clásica dentro de la teoría de modelos y de la teoría de la demostración como ser la lógica intuicionista iniciada por Brouwer y continuada por Heyting y Kolmogorov y demás lógicos constructivistas. Luego se encuentran las lógicas subestructurales\cite{dosen1993, paoli2002} que debilitan las reglas estructurales de Gentzen\cite{gentzen1964} para obtener distintos tipos de lógicas. Se denominan de dicha manera debido a que las lógica clásica posee todas las reglas estructurales que determinó Gentzen en el cálculo de secuentes. Aquí nos encontramos por ejemplo con la lógica ST o TS\cite{cobreros2012, barrio2015}.\footnote{Si se desea una introducción de orden filosófico a estas lógicas véase palauLibro (TODO: agregar libro de Palau).}
 
-Uno podría marcar que el inicio de estas lógicas distintas a las lógica clásica fue dada por otros lógicos que los lógicos que se consideran fundadores de la lógica matemática.\footnote{Para la historia de la lógica véase Brady (\citeyear{brady2011}) y los libros de la handbook of history of logic (TODO: agregar cita).} Los intereses de Brouwer era distintos a los intereses de los logicistas, los formalistas y los algebraicos. Los posteriores lógicos que promovieron otras lógicas como la relevante, las multivaluadas y las subestructurales tuvieron y tienen otras motivaciones distintas a las de los clásicos. Muchos de ellos tratan de encontrar en esos nuevos sistemas de lógica soluciones a ciertos problemas (como las paradojas) o de proponer dichos sistemas como los que se tienen que usar para la disciplina lógica (como ser los intuicionistas fuertes o los paraconsistentes \emph{à la Priest}). Sim embargo, lo que proponemos en este trabajo es que uno de los grandes fundadores y aportantes de la lógica clásica, Charles S. Peirce fue uno de los primeros en considerar provechoso la investigación de lógicas que hoy en día podrían ser denominadas como \emph{no clásicas}.
+Uno podría marcar que el inicio de estas lógicas distintas a las lógica clásica fue dada por otros lógicos que los lógicos que se consideran fundadores de la lógica matemática.\footnote{Para la historia de la lógica véase Brady (\citeyear{brady2011}) y los libros de la handbook of history of logic (TODO: agregar cita).} Los
+intereses de Brouwer era distintos a los intereses de los logicistas, los formalistas y los algebraicos. Los posteriores lógicos que promovieron otras lógicas como la relevante, las multivaluadas y las subestructurales tuvieron y tienen otras motivaciones distintas a las de los clásicos. Muchos de ellos tratan de encontrar en esos nuevos sistemas de lógica soluciones a ciertos problemas (como las paradojas) o de proponer dichos sistemas como los que se tienen que usar para la disciplina lógica (como ser los intuicionistas fuertes o los paraconsistentes \emph{à la Priest}). Sim embargo, lo que proponemos en este trabajo es que uno de los grandes fundadores y aportantes de la lógica clásica, Charles S. Peirce fue uno de los primeros en considerar provechoso la investigación de lógicas que hoy en día podrían ser denominadas como \emph{no clásicas}.
 
 Cabe aclarar que la propuesta de este trabajo no es una propuesta la que el propio Peirce trabajó para que se dé o incluso fue una preocupación propia durante su vida. Más bien esta cuestión nace un tercero muy cercano a Peirce, Paul Carus ya en los últimos años de Peirce donde Carus le pregunta por si era factible la existencia de \emph{lógicas no aristotélicas}. No queremos decir con esto que Peirce fue el primer lógico no clásico de la historia de la lógica. Lo que sostenemos es que Peirce fue el primero en \emph{habilitar la investigación} de otras lógicas.
 
@@ -171,6 +92,8 @@ En el presente trabajo tendra dos partes: una parte de busqueda histórica y otr
 
 La pregunta por otro tipo de lógicas no es propia de Peirce. Quien se la presenta al filósofo pragmatista es el editor de la revista \emph{The Monist} de ese tiempo, Paul Carus. Carus tiene una asidua correspondencia con Peirce acerca de varios temas y sobre los propios trabajos de Peirce para publicarse en la revista. En \cite{carus1910a} es donde va a presentar dicha cuestión. Aunque en este trabajo no va a hablar de \emph{lógicas no clásica} sino de \emph{lógicas no aristotélicas}, es decir lógicas que no siguen los principios de la lógica aristotélica. Esto no quiere decir la lógica que los algebraicos o incluso Frege inauguró en el siglo XIX. Esas lógicas (el álgebra de la lógica de Boole y todos los booleanos incluido Peirce mismo, o la conceptografía de Frege) son lógicas que mantienen todos los principios que Aristóteles estableció en el \emph{Órganon}. Estas lógicas por más que cambien todo su aparato lógico (se deja de lado la forma lógica de $S es P$ por las formas de ecuaciones o desigualdades o por la de función y argumento) se puede realizar las mismas demostraciones, e incluso más que la silogística aristotélica. De hecho mucho de los trabajos tempranos de Peirce fueron de mejorar la lógica de Boole para poder dar cuenta de la silogística aristotélica.
 
+Ahora bien hay además de la carta que le pide Carus a Peirce su respuesta respecto de las lógicas no aristotélicas, también hay otra carta previa donde Peirce se pregunta por dicha posibilidad. En ella habla de que ha intentado realizar ciertos experimentos con lógicas que no siguen los principios aristotélicos pero que no ha podido llegar a nada que realmente sea provechoso de publicar. Hasta ahora no hemos podido encontrar nada de esos experimentos que habla, pero no descartamos que lo que haya dicho en esa carta no sea cierto. En esa correspondencia tiene una mirada distinta, más peyorativa respecto de la posibilidad una lógica no aristotélica. Habla de que es una completa locura el tener la posibilidad de hacer algo así, habiéndolo intentado y no habiendo llegado a nada que el considere como algo merecedor de ser mostrado. 
+
 % section La correspondencia entre Carus y Peirce (end)
 
 \section{La justificación filosófica de la propuesta de Peirce} % (fold)
@@ -180,9 +103,21 @@ Varias características de la filosofía de Peirce coinciden con la propuesta an
 
 El falibilismo es una de las características más prominentes para la habilitación de la investigación de otras lógicas. En el sentido de que el falibilismo de Peirce es la postura por la cual uno nunca alcanza la certeza absoluta de sus teorías. No sólo en el sentido individual de la persona que realiza la investigación sino también de la propia comunidad de investigadores los cuáles con el tiempo, con debate y con mayor evidencia acerca de uno (o varios) fenómenos pueden cambiar de teoría. Si bien parece difícil sostener un cambio de lógica y más aún de la denominada lógica clásica. Si uno se remite a la historia de la lógica, recién en los últimos cien años se puede hablar de consideraciones serias acerca de otro tipo de lógica que no sea la lógica clásica. Sin embargo, tener una postura falibilista acerca del conocimiento abre la puerta a que la posibilidad misma de indagar por otras lógicas no esté vedada. Si bien es cierto que se ha discutido en la literatura si Peirce extiende su falibilismo a todas las disciplinas (incluida la lógica) o si bien la lógica queda fuera de ese ámbito debido a las características de las conclusiones a las cuales arriba. Sostenemos que aunque es posible encontrar ciertos escritos a lo largo de lo explicitado por Peirce las cartas dadas con Carus son en sus últimos años de vida. Esto lleva a pensar que Peirce (como lo hizo con otras cuestiones de su propia filosofía) reconsideró que incluso la lógica puede caer dentro de la actitud falibilista. Su respuesta a que no es ninguna "locura" que se pueda pensar en una lógica que no siga el principio de transitividad, para tomar el ejemplo del propio Peirce, da cuenta de hasta donde llega el falibilismo en lógica.\footnote{Llega a cuestiones bastantes profundas teniendo en cuenta el tiempo en que escribe Peirce, el principio de transitividad era algo que no lo cuestionaba ninguno de los lógicos contemporáneos a él.}
 
-Si nos fijamos en las formulaciones de la máxima pragmática también podremos observar que, en la clarificación de "conceptos intelectuales", también hay un espacio para la posibilidad de análisis de lógicas que no estén de acuerdo con los principios de la lógica clásica. Sostenemos esto debido a que la máxima pragmática permite indagar todas las posibles interpretaciones de un concepto intelectual. De esta manera es posible decir que las lógicas no aristotélicas, como aquella que da como ejemplo el propio Peirce en la carta a Carus es solo una posibilidad más dentro del concepto intelectual de la \emph{ilatio} como relación fundamental de la lógica, o mejor dicho como el concepto fundamental con el cual la lógica trabaja (esta caracterización de la \emph{ilatio} puede verse en los trabajos del álgebra de la lógica \cite{peirce1880, peirce1885} y de los cuáles no se va a oponer en la madurez). Simplemente nos encontramos extendiendo la noción de \emph{ilatio} para poder ver cuáles son sus efectos prácticos en la realidad\footnote{Varios ejemplos en la actualidad pueden verse de esto: la lógica linear con la relación entre un usuario y servidor; las lógicas paraconsistentes de Priest, solo por nombrar algunas.)}
+Si nos fijamos en las formulaciones de la máxima pragmática también podremos observar que, en la clarificación de ``conceptos intelectuales", también hay un espacio para la posibilidad de análisis de lógicas que no estén de acuerdo con los principios de la lógica clásica.
 
-Resumiendo, la postura falibilista; del ejercicio de la máxima pragmática llevan a considerar que lo propuesto por Peirce a Carus no es algo por fuera de su propia filosofía sino que, debido al poco tiempo que le quedaba y a su estado de salud solo pudo realizar una propuesta y no realizarla más a fondo como muchas de sus cuestiones que lo tuvieron motivado y trabajo durante largos años mientras realizaba otras tareas.
+En la formulación primera de la máxima pragmatica no se nombra a los conceptos intelectuales.
+
+TODO: Agregar cita de la máxima pragmática de cómo esclarecer tus ideas
+
+Pero luego en la formulación en sus \emph{lectures} se centra específicamente en ciertos conceptos:
+
+TODO: Agregar cita de la máxima que habla de los conceptos intelectuales.
+
+Las lógicas no aristotélicas, como aquella que da como ejemplo el propio Peirce en la carta a Carus es solo una posibilidad más dentro del concepto intelectual de la \emph{ilatio} como relación fundamental de la lógica, o mejor dicho como el concepto fundamental con el cual la lógica trabaja es un concepto intelectual (esta caracterización de la \emph{ilatio} puede verse en los trabajos del álgebra de la lógica \cite{peirce1880, peirce1885} y de los cuáles no se va a oponer en la madurez). Simplemente nos encontramos extendiendo la noción de \emph{ilatio} para poder ver cuáles son sus efectos prácticos en la realidad\footnote{Varios ejemplos en la actualidad pueden considerarse: la lógica linear con la relación entre un usuario y servidor; las lógicas paraconsistentes de Priest, solo por nombrar algunas.)}
+
+Otra cuestión que aporta la máxima pragmática es la consideración de las consecuencia prácticas de los efectos del concepto que se desea aclarar. ¿Cómo tendría que serlo para la noción de consecuencia lógica? Bueno, las consecuencias prácticas de la noción de consecuencia lógica entendida clásicamente llevó a un gran desarrollo matemático, en el área de la electrónica -los circuitos eléctricos pueden representarse mediante la lógica clásica- y la computación. Pero, otro lado, también las lógicas no clásicas pueden mostrar ciertos efectos prácticos como ser la resolución de varias paradojas semánticas o incluso varias paradojas dadas por las conectivas lógicas de la lógica clásica (como ser la lógica relevante con las paradojas de la implicación material). La posibilidad de indagar otras lógicas también responde a motivaciones de órdenes prácticos que pueden estar o no dentro de la disciplina.
+
+Resumiendo, la postura falibilista; el ejercicio de la máxima pragmática llevan a considerar que lo propuesto por Peirce a Carus no es algo por fuera de su propia filosofía sino que, debido al poco tiempo que le quedaba y a su estado de salud solo pudo realizar una propuesta y no realizarla más a fondo como muchas de sus cuestiones que lo tuvieron motivado y trabajo durante largos años mientras realizaba otras tareas.
 % section La justificación filosófica de la propuesta de Peirce (end)
 
 \section{Conclusiones} % (fold)
@@ -192,16 +127,9 @@ Consideramos que es necesario el revisar dentro de la historia de la lógica lo 
 
 % section Conclusiones (end)
 
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-% The bibliography needs to be compiled with biber using your LaTeX editor, or on the command line with 'biber main' from the template directory
-
-% \printbibliography[title=Bibliografía] % Set the title of the bibliography and print the references
-
 % Bibliography:
 \phantomsection % only if hyperref is loaded
 \printbibliography
+\nocite{peirce1931}
 
 \end{document}  
