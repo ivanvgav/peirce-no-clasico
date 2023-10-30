@@ -16,17 +16,15 @@
   secfont    = italic,
   subsecfont = italic,
   %headerstyle = plain,
-  version    = screen,%cscreen,final,draft
+  version    = final,%cscreen,final,draft
   %draftcopy=true,
 ]{suftesi}
 
 \usepackage[
-  greek.polutoniko,
-  german,
-  english,
-  italian,
   spanish
 ]{babel}
+
+\usepackage{authblk}
 
 % Bibliography:
 \usepackage[spanish = spanish]{csquotes}
@@ -48,7 +46,9 @@
 \usepackage{hyperref} % <-- !!! this package must be loaded last!
 
 % Colophon and headers data:
-\author{Ivan Vladimir Gavriloff\thanks{UNT - CONICET}}
+\author{Ivan Vladimir Gavriloff}
+\affil{Universidad Nacional de Tucumán}
+\affil{CONICET}
 \title[Un Peirce no clásico]{
   Un Peirce no clásico\\
   Acerca de la posibilidad del estudio de lógicas no clásicas para C. S. Peirce
@@ -85,7 +85,7 @@ intereses de Brouwer era distintos a los intereses de los logicistas, los formal
 
 Cabe aclarar que la propuesta de este trabajo no es una propuesta la que el propio Peirce trabajó para que se dé o incluso fue una preocupación propia durante su vida. Más bien esta cuestión nace un tercero muy cercano a Peirce, Paul Carus ya en los últimos años de Peirce donde Carus le pregunta por si era factible la existencia de \emph{lógicas no aristotélicas}. No queremos decir con esto que Peirce fue el primer lógico no clásico de la historia de la lógica. Lo que sostenemos es que Peirce fue el primero en \emph{habilitar la investigación} de otras lógicas.
 
-En el presente trabajo tendra dos partes: una parte de busqueda histórica y otra de orden filosófico. En la primera vamos a mostrar como es que Peirce habilita la investigación de ciertas lógicas que hasta el momento son llamadas como no "aristotélicas" y cuáles son los motivos que hicieron que Peirce enuncie dicha posibildad. En segundo lugar vamos a ver algunos aspectos de su propia filosofía los cuales permiten pensar que el pragmatismo de Peirce (su pragmaticismo\footnote{En el presente trabajo vamos a usar pragmatismo en vez de pragmaticismo por cuestiones convencionales pero somos concientes que el pragmaticismo de Peirce es distinto al pragmatismo clásico de James y Dewey, por ejemplo.}) es un buen marco filosófico para poder pensar las lógicas no clásicas.
+En el presente trabajo tendrá dos partes: una parte de búsqueda histórica y otra de orden filosófico. En la primera vamos a mostrar como es que Peirce habilita la investigación de ciertas lógicas que hasta el momento son llamadas como no "aristotélicas" y cuáles son los motivos que hicieron que Peirce enuncie dicha posibilidad. En segundo lugar vamos a ver algunos aspectos de su propia filosofía los cuales permiten pensar que el pragmatismo de Peirce (su pragmaticismo\footnote{En el presente trabajo vamos a usar pragmatismo en vez de pragmaticismo por cuestiones convencionales pero somos conscientes que el pragmaticismo de Peirce es distinto al pragmatismo clásico de James y Dewey, por ejemplo.}) es un buen marco filosófico para poder pensar las lógicas no clásicas.
 
 \section{La correspondencia entre Carus y Peirce} % (fold)
 \label{sec:La correspondencia entre Carus y Peirce}
@@ -99,7 +99,11 @@ Ahora bien hay además de la carta que le pide Carus a Peirce su respuesta respe
 \section{La justificación filosófica de la propuesta de Peirce} % (fold)
 \label{sec:La justificación filosófica de la propuesta de Peirce}
 
+Habiendo ya visto la evidencia referida a la correspondencia y a qué la cuestión fue planteada en un principio y luego descartada, pero vuelta a retomar por Carus y, la segunda vez, considerada por Peirce, la pregunta que surge es si efectivamente la filosofía de Peirce, su pragmatismo (o pragmaticismo) justifica la posición para indagar otras lógicas. Nuestra postura es clara: el pragmatismo de Peirce permite justificar la investigación de otras lógicas, por más que el propio Peirce no haya llevado grandes desarrollos acerca de ellas.\footnote{Podría haber una discusión posterior a esto ya que Peirce si tiene desarrollos en lógicas que van más allá de la denominada lógica clásica. Es el caso de la lógica trivalente de Peirce \cite{fisch1966, turquette1967, turquette1969, lane1999, odland2021} donde se encuentran desarrollos embrionarios de las lógicas trivalentes de Post, Lukasievizt (TODO: buscar bien el nombre) y Kleene (TODO: buscar referencias). Consideramos que de manera muy \emph{sui generis} fue de alguna manera un lógico no clásico, incluso uno de los iniciadores, aunque no se hayan publicado sus trabajos en dicha materia.}
+
 Varias características de la filosofía de Peirce coinciden con la propuesta analizada en la sección anterior. Incluso hay \emph{scholars} que consideran que Peirce es un pluralista radical\cite{mayorga2016, rosenthal1994}. El pluralismo del que bregan ellas es distinto al pluralismo necesario para poder sostener lo que Peirce le dice a Carus en la carta. Sin embargo, consideramos que la propuesta de Peirce no es inconsistente o tiene problemas con su propia filosofía, más bien es una clara expresión de su filosofía. Tener la posibilidad de investigar \emph{lógicas no aristotélicas} es una consecuencia del pragmatismo peirceano.
+
+TODO: Hablar un poco de los tipos de pluralismos que hablan mayorga y rosenthal.
 
 El falibilismo es una de las características más prominentes para la habilitación de la investigación de otras lógicas. En el sentido de que el falibilismo de Peirce es la postura por la cual uno nunca alcanza la certeza absoluta de sus teorías. No sólo en el sentido individual de la persona que realiza la investigación sino también de la propia comunidad de investigadores los cuáles con el tiempo, con debate y con mayor evidencia acerca de uno (o varios) fenómenos pueden cambiar de teoría. Si bien parece difícil sostener un cambio de lógica y más aún de la denominada lógica clásica. Si uno se remite a la historia de la lógica, recién en los últimos cien años se puede hablar de consideraciones serias acerca de otro tipo de lógica que no sea la lógica clásica. Sin embargo, tener una postura falibilista acerca del conocimiento abre la puerta a que la posibilidad misma de indagar por otras lógicas no esté vedada. Si bien es cierto que se ha discutido en la literatura si Peirce extiende su falibilismo a todas las disciplinas (incluida la lógica) o si bien la lógica queda fuera de ese ámbito debido a las características de las conclusiones a las cuales arriba. Sostenemos que aunque es posible encontrar ciertos escritos a lo largo de lo explicitado por Peirce las cartas dadas con Carus son en sus últimos años de vida. Esto lleva a pensar que Peirce (como lo hizo con otras cuestiones de su propia filosofía) reconsideró que incluso la lógica puede caer dentro de la actitud falibilista. Su respuesta a que no es ninguna "locura" que se pueda pensar en una lógica que no siga el principio de transitividad, para tomar el ejemplo del propio Peirce, da cuenta de hasta donde llega el falibilismo en lógica.\footnote{Llega a cuestiones bastantes profundas teniendo en cuenta el tiempo en que escribe Peirce, el principio de transitividad era algo que no lo cuestionaba ninguno de los lógicos contemporáneos a él.}
 
