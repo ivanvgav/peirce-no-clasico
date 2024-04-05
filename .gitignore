@@ -1,5 +1,2 @@
-main.aux
-main.bcf
-main.log
-main.mw
-main.toc
+main.pdf
+.gitignore
