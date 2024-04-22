@@ -361,7 +361,7 @@ Lo importante para Peirce no era que el sistema pueda responder a problemas de l
 del modo más elegente, sino que el sistema sea lo más icónico para poder destacar su poder de análisis.
 Un ejemplo de esto puede ser la línea de identidad que en sí es un ícono, un índice y un símbolo a la vez,
 destacando su iconidad.
-[TODO: colocar cita donde habla acerca de la línea de identidad como icono, indice y símbolo.]
+<!-- [TODO: colocar cita donde habla acerca de la línea de identidad como icono, indice y símbolo.] -->
 
 MacColl no tenía todas estas consideraciones de orden semiótico y de orden analítico.
 En sus trabajos promovia modos de resolver los problemas lógicos de la mejor manera posible,
